@@ -1,5 +1,11 @@
+import Ingredients from "./pages/Ingredients";
+
 const App = () => {
-  return <div>App</div>;
+  return (
+    <>
+      <Ingredients />
+    </>
+  );
 };
 
 export default App;
