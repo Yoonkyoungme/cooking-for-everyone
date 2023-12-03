@@ -1,10 +1,13 @@
+import { Route, Routes } from "react-router-dom";
+import Main from "./pages/Main";
 import Ingredients from "./pages/Ingredients";
 
 const App = () => {
   return (
-    <>
-      <Ingredients />
-    </>
+    <Routes>
+      <Route path="/" element={<Main />} />
+      <Route path="/ingredients" element={<Ingredients />} />
+    </Routes>
   );
 };
 
