@@ -1,7 +1,7 @@
 const Ingredients = () => {
   return (
     <div className="flex flex-col items-center w-full min-h-screen p-10 gap-20">
-      <div className="self-start m-4 text-xl font-bold">
+      <div className="self-start m-4 text-2xl font-bold">
         냉장고에 있는 재료를
         <br />
         모두 입력해 주세요.
